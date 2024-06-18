@@ -1,0 +1,14 @@
+
+version: 2
+
+sources:
+  - name: public
+    description: "Create a view for all dvf data stored in a parquet file"
+    database: dev
+    schema: public
+    tables: 
+      - name: fct_dvf_full
+    
+
+
+
