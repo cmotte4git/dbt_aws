@@ -8,7 +8,7 @@ con = duckdb.connect("dev.db")
 
 
 # Path to your Parquet file
-parquet_file = 's3://dev-data-redshift/dvf_full.parquet'
+parquet_file = 's3:///dvf_full.parquet'
 
 # Describe the Parquet file to get the schema
 describe_result = con.execute(f"DESCRIBE SELECT * FROM '{parquet_file}'").fetchall()
