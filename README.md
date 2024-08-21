@@ -3,7 +3,7 @@ Welcome to a dbt with redshift project!
 # This project computes dvf data
 
 ### Redshift as dbt DBT adapter
-A redshift cluster is needed to 
+A redshift cluster is needed to perform these operations
 
 ### top_delta_valeur_fonciere
 This dbt model delivers best real estate operations during the last 5 years
